@@ -16,10 +16,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up PHP
+      - name: Set up PHP 8.1
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.0' # ou la version de PHP que vous utilisez
+          php-version: '8.1'  # Mettre à jour vers PHP 8.1 ou supérieur
 
       - name: Install dependencies
         run: |
